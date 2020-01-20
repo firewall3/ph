@@ -274,11 +274,11 @@ span.green {
                this.currentText += this.origText.charAt(this.currentChar);
                }
                this.element.innerHTML = this.currentText;
-               this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+               this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "Mr.Ddsid3");
                this.currentChar++;
                setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
                } else {
-               this.currentText = "";
+               this.currentText = "Mr.Ddsid3";
                this.currentChar = 0;
                this.running = false;
                this.finishedCallback();
